@@ -1,0 +1,25 @@
+{
+  "name": "vue-typescript-starter",
+  "version": "1.0.0",
+  "description": "Simple Vue.2 starter with Typescript",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Susniak/vue-typescript-starter.git"
+  },
+  "keywords": [
+    "vue2",
+    "vue",
+    "typescript",
+    "starter"
+  ],
+  "author": "Marek Suśniak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Susniak/vue-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/Susniak/vue-typescript-starter#readme"
+}
