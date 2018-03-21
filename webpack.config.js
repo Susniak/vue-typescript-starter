@@ -1,8 +1,8 @@
 const build = require('path').resolve(__dirname, 'build');
 
 module.exports = {
-    entry: './client-application/index.ts',
-    devtool: 'inline-source-map',
+    entry: './source/index.ts',
+    devtool: '#eval-source-map',
     devServer: {
         port: 9000,
         noInfo: true,
@@ -43,11 +43,11 @@ module.exports = {
                 exclude: /node_modules/
             },
             {
-                test: /\.(ts|tsx)$/,
+                test: /\.tsx?$/,
                 loader: 'ts-loader',
                 exclude: /node_modules/,
                 options: {
-                    appendTsSuffixTo: [/\.vue$/],
+                    appendTsSuffixTo: [/\.vue$/]
                 }
             },
             {

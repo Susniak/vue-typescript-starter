@@ -16,6 +16,9 @@
     ]
   },
   "include": [
-      "./client-application/**/*"
+    "./source/**/*"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }

@@ -4,7 +4,7 @@
   "description": "Simple Vue.2 starter with Typescript",
   "scripts": {
     "start": "webpack-dev-server --hot --inline --mode development --open",
-    "build": "webpack --open"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
