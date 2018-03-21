@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple Vue.2 starter with Typescript",
   "scripts": {
-    "start": "webpack-dev-server --hot --inline --mode development --open",
+    "start": "webpack-dev-server --hot --inline --mode development",
     "build": "webpack"
   },
   "repository": {
