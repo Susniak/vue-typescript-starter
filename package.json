@@ -2,9 +2,9 @@
   "name": "vue-typescript-starter",
   "version": "1.0.0",
   "description": "Simple Vue.2 starter with Typescript",
-  "main": "index.js",
   "scripts": {
-
+    "start": "webpack-dev-server --hot --inline --mode development",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,28 @@
   "bugs": {
     "url": "https://github.com/Susniak/vue-typescript-starter/issues"
   },
-  "homepage": "https://github.com/Susniak/vue-typescript-starter#readme"
+  "homepage": "https://github.com/Susniak/vue-typescript-starter#readme",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-class-component": "^6.2.0",
+    "vue-property-decorator": "^6.0.0",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "html-loader": "^0.5.5",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.6",
+    "ts-loader": "^4.0.0",
+    "typescript": "^2.6.1",
+    "vue-loader": "^14.2.1",
+    "vue-template-compiler": "^2.3.4",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
 }
