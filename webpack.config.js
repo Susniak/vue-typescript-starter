@@ -5,7 +5,7 @@ module.exports = {
     entry: './source/index.ts',
     devtool: '#eval-source-map',
     devServer: {
-        port: 4000,
+        port: 4001,
         noInfo: true,
         overlay: true,
         historyApiFallback: true,
@@ -14,7 +14,6 @@ module.exports = {
     },
     output: {
         filename: 'build.js',
-        publicPath: '/build/',
         path: build
     },
     module: {
@@ -71,7 +70,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './index.html'
+            template: 'index.html'
         })
     ]
 };
