@@ -19,4 +19,4 @@ To build project you should type in your console:
 
 > npm run build
 
-You project will be located on ./build path.
+Your project will be located on ./build path.
